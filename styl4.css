@@ -1,0 +1,39 @@
+body {
+	font-family: 'Helvetica';
+}
+
+header, footer {
+	background-color: #AF4448;
+	color: white;
+	text-align: center;
+	height: 20px;
+}
+
+#content {
+	display: flex;
+}
+
+nav, aside {
+	background-color: #FFA4A2;
+	height: 650px;
+	width: 50%;
+}
+
+nav {
+	float: left;
+}
+
+aside {
+	float: right;
+}
+
+h4.selector {
+	margin: 0px;
+}
+
+input#userSubmit {
+	background-color: #AF4448;
+	color: white;
+	padding: 5px;
+	margin: 10px;
+}
